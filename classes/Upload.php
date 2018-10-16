@@ -207,11 +207,11 @@ class Upload {
         }
         
         /* Must repeat statement
-        $increment_base = $fileparts['dirname'] . '/' . $fileparts['filename'] . $cont . $extension */
+        $increment_base = $fileparts['dirname'] . '/' . $fileparts['filename'] . $count . $extension */
         $count = 0;
         
         while(file_exists($fileparts['dirname'] . '/' . $fileparts['filename'] . $count . $extension)) {
-            $cont++;
+            $count++;
         }
         
         return $fileparts['dirname'] . '/' . $fileparts['filename'] . $count . $extension;

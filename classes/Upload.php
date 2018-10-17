@@ -1,11 +1,4 @@
 <?php
-
-/*
-
-TODO: Fix shit
-
-*/
-
 class Upload {
 
     const FILESYSTEM_KEEP = 1;
@@ -19,7 +12,7 @@ class Upload {
     const ERROR_EXISTS = 3;
     const ERROR_FS_FAIL = 4;
     
-    private $policy = self::POLICY_OVERWRITE; /*Default action ow */
+    private $policy = self::FILESYSTEM_OVERWRITE; /*Default action ow */
     private $error = self::NO_ERR;
     private $file;
     private $input;

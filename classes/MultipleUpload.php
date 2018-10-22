@@ -33,6 +33,20 @@ class MultipleUpload {
             
     private $globalError;
     private $indivErrors;
+    
+    function logs() {
+        echo '<br> Files ' . var_export($this->files,true) . '</br>';
+        echo '<br> MAX SIZE ' . var_export($this->maxSize,true) . '</br>';
+        echo '<br> Items ' . var_export($this->items,true) . '</br>';
+        echo '<br> Names ' . var_export($this->names,true) . '</br>';
+        echo '<br> Policy ' . var_export($this->policy,true) . '</br>';
+        echo '<br> SavedNAmes ' . var_export($this->savedNames,true) . '</br>';
+        echo '<br> Target Folder ' . var_export($this->target,true) . '</br>';
+        echo '<br> Type ' . var_export($this->type,true) . '</br>';
+        echo '<br> Global err ' . var_export($this->globalError,true) . '</br>';
+        echo '<br> Individual err ' . var_export($this->indivErrors, true) . '</br>';
+        
+    }
             
             
     private function __initialise() {
@@ -86,16 +100,13 @@ class MultipleUpload {
     
     // Gets and Sets LATER
     
-    function getError() {
-       /* $error = $this->error + self::MIN_OWN_ERROR;
-        if($error === self::MIN_OWN_ERROR) {
-            $error = $this->file['error'];
-        }*/
-        return $this->error;
+    function getGlobalError() {
+        return $this->globalError;
     }
     
-    function getErrorVerbose() {
-        
+    function getIndividualErrors() {
+        return $this->indivErrors;
+
     }
 
     function getMaxSize() {
@@ -104,7 +115,7 @@ class MultipleUpload {
     
     function getName() {
         /*SHIT*/
-        $nombre = $this->savedName;
+        $nombre = $this->savedNames;
         if(count($nombre)===0) {
             $nombre = $this->name;
         }
@@ -169,9 +180,9 @@ class MultipleUpload {
         if($this->type !== '') {
             
             $mimeType = shell_exec('file --mime ' . $this->files['tmp_name'][$index]);
-            $posicion = strpos($mimeType, $this->type);
+            $position = strpos($mimeType, $this->type);
             
-            if($posicion === false) {
+            if($position === false) {
                 $status = false;
             }
             
@@ -204,7 +215,7 @@ class MultipleUpload {
             }
            
         }
-        
+        $this->logs();
         return $status;
         
     }
@@ -324,6 +335,8 @@ class MultipleUpload {
         $newFile = $split['dirname'] . '/' . $split['filename'] . $count . $extension;
 
         return $newFile;
+        
+        
     }
 
 }

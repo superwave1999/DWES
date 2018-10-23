@@ -12,14 +12,14 @@ class Upload {
     const ERROR_EXISTS = 3;
     const ERROR_FS_FAIL = 4;
     
-    private $policy = self::FILESYSTEM_OVERWRITE; /*Default action ow */
+    private $policy = self::FILESYSTEM_OVERWRITE;
     private $error = self::NO_ERR;
     private $file;
     private $input;
     private $maxSize = 0;
     private $name;
     private $savedName = '';
-    private $target = './';  /* $target = '/home/ubuntu/workspace/uploads */
+    private $target = './';
     private $type = '';
 
     function __construct($input) {
@@ -93,13 +93,7 @@ class Upload {
         return $this;
     }
 
-
-
-
-    //Checks
-
     function checkSize() {
-        /* no max size fixed */
         return ($this->maxSize === 0 || $this->maxSize >= $this->file['size']);
     }
 
@@ -115,8 +109,6 @@ class Upload {
         return $status;
     }
 
-
-    /* START PROCESS FUNCTION - OK*/
     function upload() {
         $status = false;
 
@@ -133,7 +125,6 @@ class Upload {
         return $status;
     }
 
-    /* OK */
     private function __startUpload() {
         $status = false;
         
@@ -150,14 +141,12 @@ class Upload {
         }
         
         if(!$status && $this->error === self::NO_ERR){
-            //Move fail
             $this->error = self::ERROR_FS_FAIL;
         }
         
         return $status;
     }
     
-    /* OK */
     private function __uploadKeepExisting() {
         $status = false;
         $fs_path = $this->target . $this->name;
@@ -169,13 +158,11 @@ class Upload {
         return $status;
     }
     
-    /* OK */
     private function __uploadReplaceExisting() {
         $fs_path = $this->target . $this->name;
         return move_uploaded_file($this->file['tmp_name'], $fs_path);
     }
     
-    /* OK */
     private function __uploadIncrementNew() {
         $fs_path = $this->target . $this->name;
         if(file_exists($fs_path)) {
@@ -190,7 +177,6 @@ class Upload {
         return $status;
     }
     
-    /* OK */
     private static function __getNewName($fs_path) {
         $fileparts = pathinfo($fs_path);
         $extension = '';
@@ -198,9 +184,7 @@ class Upload {
         if(isset($fileparts['extension'])) {
             $extension = '.' . $fileparts['extension'];
         }
-        
-        /* Must repeat statement
-        $increment_base = $fileparts['dirname'] . '/' . $fileparts['filename'] . $count . $extension */
+       
         $count = 0;
         
         while(file_exists($fileparts['dirname'] . '/' . $fileparts['filename'] . $count . $extension)) {

@@ -44,7 +44,7 @@ class MultipleUpload {
         $this->globalError = self::NO_ERR;
         $this->indivErrors = array();
         
-        $this->policy = self::FILESYSTEM_OVERWRITE;
+        $this->policy = self::FILESYSTEM_RENAME;
         $this->type = '';
         $this->savedNames = array();
         $this->maxSize = 0; /*Unlimited max size*/

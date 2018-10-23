@@ -1,14 +1,5 @@
 <?php
 
-/*
-Resumen de errores:
-1 - no existe el archivo que se va a subir
-2 - el tamaño del archivo excede el máximo, o el tipo no es válido
-3 - ya existe un archivo con ese nombre
-4 - ha fallado move_uploaded_file()
-*/
-
-
 class MultipleUpload {
 
     const FILESYSTEM_KEEP = 1;
@@ -63,7 +54,6 @@ class MultipleUpload {
     }
 
     function __construct($input) {
-        /*OK*/
         $this->__initialise();
             
         if (isset($_FILES[$input]) && $_FILES[$input]['name'] != '') {
@@ -97,9 +87,6 @@ class MultipleUpload {
         
     }
     
-    
-    // Gets and Sets LATER
-    
     function getGlobalError() {
         return $this->globalError;
     }
@@ -114,7 +101,6 @@ class MultipleUpload {
     }
     
     function getName() {
-        /*SHIT*/
         $nombre = $this->savedNames;
         if(count($nombre)===0) {
             $nombre = $this->name;
@@ -130,7 +116,6 @@ class MultipleUpload {
     }
 
     function setName($name) {
-        /*SHIT*/
         if(is_string($name) && trim($name) !== '') {
             $this->name = trim($name);
         }
@@ -158,12 +143,7 @@ class MultipleUpload {
         return $this;
     }
     
-    
-    
-    //Checks
-    
     private function __checkSize($index) {
-        /*OK*/
         if ($this->maxSize === 0 || $this->maxSize >= $this->files['size'][$index]) {
             //0 se interpreta como que no hay maximo
             return true;
@@ -174,7 +154,6 @@ class MultipleUpload {
     }
 
     private function __checkType($index) {
-        /*OK*/
         $status = true;
         
         if($this->type !== '') {
@@ -191,11 +170,8 @@ class MultipleUpload {
         return $status;
         
     }
-    
-    //Upload main stuff
 
     function upload() {
-    /*OK*/
         $status = false;
         
         if($this->globalError === self::NO_ERR) {
@@ -221,26 +197,20 @@ class MultipleUpload {
     }
     
     private function __doUpload($index) {
-        /*OK*/
         
         $status = false;
         
         switch ($this->policy) {
             case self::FILESYSTEM_KEEP:
-                
                 $status = $this->__doUploadKeep($index);
-                
             break;
                 
             case self::FILESYSTEM_OVERWRITE:
-                
                 $status = $this->__doUploadOverwrite($index);
             break;
                 
             case self::FILESYSTEM_RENAME:
-                
                 $status = $this->__doUploadRename($index);
-                
             break;
             
         }
@@ -254,7 +224,6 @@ class MultipleUpload {
     }
     
     private function __doUploadKeep($index) {
-        /*OK*/
         
         $status = false;
         
@@ -275,7 +244,6 @@ class MultipleUpload {
     }
     
     private function __doUploadOverwrite($index) {
-        /*OK*/
         $name = $this->__getFileName($index);
         
         return move_uploaded_file($this->files['tmp_name'][$index], $this->target . $name);
@@ -283,8 +251,6 @@ class MultipleUpload {
     }
     
     private function __doUploadRename($index) {
-        /*OK*/
-        
         $fileName = $this-> __getFileName($index);
         
         $fullPath = $this->target . $fileName;
@@ -306,7 +272,6 @@ class MultipleUpload {
     }
     
     private function __getFileName($index){
-        /*OK*/
         $name = '';
         
         if(is_array($this->names)){
@@ -318,7 +283,6 @@ class MultipleUpload {
     }
     
     private static function __nameIncrement($file) {
-        /*OK*/
 
         $split = pathinfo($file);
         $extension = '';

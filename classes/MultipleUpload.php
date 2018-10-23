@@ -36,11 +36,11 @@ class MultipleUpload {
     
     function logs() {
         echo '<br> Files ' . var_export($this->files,true) . '</br>';
-        echo '<br> MAX SIZE ' . var_export($this->maxSize,true) . '</br>';
+        echo '<br> Max size ' . var_export($this->maxSize,true) . '</br>';
         echo '<br> Items ' . var_export($this->items,true) . '</br>';
         echo '<br> Names ' . var_export($this->names,true) . '</br>';
         echo '<br> Policy ' . var_export($this->policy,true) . '</br>';
-        echo '<br> SavedNAmes ' . var_export($this->savedNames,true) . '</br>';
+        echo '<br> SavedNames ' . var_export($this->savedNames,true) . '</br>';
         echo '<br> Target Folder ' . var_export($this->target,true) . '</br>';
         echo '<br> Type ' . var_export($this->type,true) . '</br>';
         echo '<br> Global err ' . var_export($this->globalError,true) . '</br>';
@@ -225,7 +225,7 @@ class MultipleUpload {
         
         $status = false;
         
-        switch($this->policy) {
+        switch ($this->policy) {
             case self::FILESYSTEM_KEEP:
                 
                 $status = $this->__doUploadKeep($index);
@@ -307,12 +307,12 @@ class MultipleUpload {
     
     private function __getFileName($index){
         /*OK*/
-        $name='';
+        $name = '';
         
         if(is_array($this->names)){
-            $name=$this->names[$index];
-        }else{
-            $name=$this->names;
+            $name = $this->names[$index];
+        } else {
+            $name = $this->names;
         }
         return $name;
     }

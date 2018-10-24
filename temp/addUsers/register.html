@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Añadir usuario y foto</h1>
+
+<form action="validacion.php" enctype="multipart/form-data" method="post">
+    <input type="text" name="username" placeholder="Name of person" />
+    <input type="file" multiple="multiple" accept="image/png, image/jpeg, image/gif" name="profile[]" required/>
+    
+    <input type="reset" value="Reset" />
+    <input type="submit" value="Submit" />
+</form>
+
+<a href="index.php"><input type="button" value="Return"/></a>
+</body>
+</html>

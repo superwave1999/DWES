@@ -215,7 +215,7 @@ class MultipleUpload {
             
         }
         
-        if(!$status && $this->error === self::NO_ERR){
+        if(!$status && $this->globalError === self::NO_ERR){
             $this->indivErrors[$index] = self::ERROR_FS_FAIL;
         }
         

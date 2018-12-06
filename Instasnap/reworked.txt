@@ -1,0 +1,25 @@
+
+/index - NO ACC OK - ACC OK
+
+/user/index - NO ACC OK - ACC OK
+/user/edit - NO ACC OK - ACC OK
+/user/doedit - NO ACC OK - ACC OK
+
+/newpost/index - NO ACC OK - ACC OK
+/newpost/doupload - NO ACC OK - ACC OK
+
+
+/editpost/doedit - NO ACC OK - ACC OK
+/editpost/index - NO ACC OK - ACC OK
+
+
+/admin_users/index - NO ACC OK - ACC OK - ADM OK
+/admin_users/insert - NO ACC OK - ACC OK - ADM OK
+/admin_users/doedit - NO ACC OK - ACC OK - ADM OK
+/admin_users/doinsert - NO ACC OK - ACC OK - ADM OK
+/admin_users/dodelete - NO ACC OK - ACC OK - ADM OK
+
+/admin_photos/index - NO ACC OK - ACC OK - ADM OK
+/admin_photos/insert - NO ACC OK - ACC OK - ADM OK
+/admin_photos/doinsert - NO ACC OK - ACC OK - OK
+/admin_photos/dodelete - NO ACC OK - ACC OK

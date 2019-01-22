@@ -1,0 +1,45 @@
+{% extends '_base.html' %}
+{% block page %}
+        <main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    <h4 class="display-4">Photo</h4>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <form action="post/doedit" method="post" enctype="multipart/form-data">
+                        
+                        
+                        <input type="hidden" name="id" value="{{photo.id}}">
+                        <input type="hidden" name="userid" value="{{photo.userid}}">
+                        <input type="hidden" name="or_filename" value="{{photo.or_filename}}">
+                        <input type="hidden" name="sto_filename" value="{{photo.sto_filename}}">
+                        
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <input required type="text" class="form-control" id="description" name="description" placeholder="Describe la foto"
+                            value="{{photo.description}}">
+                        </div>
+                        
+                        <input type="hidden" name="mime_type" value="{{photo.mime_tipe}}">
+                        
+                        <div class="form-group">
+                            <label for="visible">Visible on dashboard</label>
+                            <input type="checkbox" name="visible" id="visible" {{photo.visible}} value="1">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="pinned">Pin to top</label>
+                            <input type="checkbox" name="pinned" id="pinned" {{photo.pinned}} value="1">
+                        </div>
+                        
+                        <input type="hidden" name="uploadtime" value="{{photo.uploadtime}}">
+
+                        <button type="submit" class="btn btn-primary">Alta</button>
+                    </form>
+                </div>
+                <hr>
+            </div>
+        </main>
+{% endblock %}

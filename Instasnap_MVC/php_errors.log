@@ -1,0 +1,576 @@
+[22-Nov-2018 19:59:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 19:59:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:00:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:00:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:00:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:02:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:02:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:02:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:02:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:02:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/asktoken.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/asktoken.php on line 6
+[22-Nov-2018 20:03:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/getcredentials.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/getcredentials.php on line 4
+[22-Nov-2018 20:03:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/getcredentials.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/getcredentials.php on line 4
+[22-Nov-2018 20:03:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/gmail/getcredentials.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/gmail/getcredentials.php on line 4
+[22-Nov-2018 20:27:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[22-Nov-2018 20:27:53 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/user/doinsert.php on line 32
+[22-Nov-2018 20:36:39 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[22-Nov-2018 20:36:39 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/user/doinsert.php on line 32
+[22-Nov-2018 20:40:17 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[22-Nov-2018 20:40:17 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/user/doinsert.php on line 32
+[22-Nov-2018 20:41:36 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[22-Nov-2018 20:41:36 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/user/doinsert.php on line 32
+[22-Nov-2018 20:44:04 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[22-Nov-2018 20:44:04 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/user/doinsert.php on line 32
+[22-Nov-2018 20:48:24 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[22-Nov-2018 20:48:24 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/user/doinsert.php on line 32
+[24-Nov-2018 13:53:38 UTC] PHP Notice:  Undefined variable: session in /home/ubuntu/workspace/newpost/index.php on line 13
+[24-Nov-2018 13:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/newpost/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/index.php on line 13
+[24-Nov-2018 13:54:27 UTC] PHP Notice:  Undefined variable: session in /home/ubuntu/workspace/newpost/index.php on line 13
+[24-Nov-2018 13:54:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/newpost/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/index.php on line 13
+[24-Nov-2018 15:53:30 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type izv\data\Usuario as array in /home/ubuntu/workspace/newpost/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/index.php on line 14
+[24-Nov-2018 15:54:48 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type izv\data\Usuario as array in /home/ubuntu/workspace/newpost/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/index.php on line 18
+[24-Nov-2018 15:56:02 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type izv\data\Usuario as array in /home/ubuntu/workspace/newpost/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/index.php on line 20
+[24-Nov-2018 15:56:55 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type izv\data\Usuario as array in /home/ubuntu/workspace/newpost/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/index.php on line 20
+[24-Nov-2018 15:57:50 UTC] PHP Notice:  Undefined variable: pin in /home/ubuntu/workspace/classes/izv/data/Photo.php on line 29
+[24-Nov-2018 15:57:50 UTC] PHP Notice:  Undefined variable: ut in /home/ubuntu/workspace/classes/izv/data/Photo.php on line 30
+[24-Nov-2018 15:57:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getNombre() in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/doupload.php(69): izv\managedata\ManagePhoto->add(Object(izv\data\Photo))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php on line 21
+[24-Nov-2018 16:03:09 UTC] PHP Notice:  Undefined variable: pin in /home/ubuntu/workspace/classes/izv/data/Photo.php on line 29
+[24-Nov-2018 16:03:09 UTC] PHP Notice:  Undefined variable: ut in /home/ubuntu/workspace/classes/izv/data/Photo.php on line 30
+[24-Nov-2018 16:03:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getNombre() in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/doupload.php(69): izv\managedata\ManagePhoto->add(Object(izv\data\Photo))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php on line 21
+[24-Nov-2018 16:03:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getNombre() in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/doupload.php(69): izv\managedata\ManagePhoto->add(Object(izv\data\Photo))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php on line 21
+[24-Nov-2018 18:57:17 UTC] PHP Notice:  Undefined variable: usuario in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php on line 25
+[24-Nov-2018 18:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/doupload.php(69): izv\managedata\ManagePhoto->add(Object(izv\data\Photo))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php on line 25
+[24-Nov-2018 18:57:56 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[24-Nov-2018 19:16:18 UTC] PHP Notice:  Use of undefined constant userid - assumed 'userid' in /home/ubuntu/workspace/newpost/index.php on line 20
+[24-Nov-2018 19:16:33 UTC] PHP Notice:  Use of undefined constant userid - assumed 'userid' in /home/ubuntu/workspace/newpost/index.php on line 20
+[24-Nov-2018 19:32:20 UTC] PHP Notice:  Undefined variable: session in /home/ubuntu/workspace/newpost/doupload.php on line 22
+[24-Nov-2018 19:32:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/newpost/doupload.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/doupload.php on line 22
+[24-Nov-2018 19:32:44 UTC] PHP Notice:  Undefined variable: session in /home/ubuntu/workspace/newpost/doupload.php on line 22
+[24-Nov-2018 19:32:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/newpost/doupload.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/newpost/doupload.php on line 22
+[24-Nov-2018 20:43:20 Europe/Madrid] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 36
+[24-Nov-2018 20:49:41 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 86
+[24-Nov-2018 20:55:44 Europe/Madrid] PHP Warning:  move_uploaded_file(/home/ubuntu/workspace/uploads/9/upload-9-2018-11-24.20:55:44): failed to open stream: No such file or directory in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 70
+[24-Nov-2018 20:55:44 Europe/Madrid] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9GDimW' to '/home/ubuntu/workspace/uploads/9/upload-9-2018-11-24.20:55:44' in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 70
+[24-Nov-2018 20:57:11 Europe/Madrid] PHP Warning:  move_uploaded_file(/home/ubuntu/workspace/uploads/9/upload-9-2018-11-24.20:57:11): failed to open stream: No such file or directory in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 70
+[24-Nov-2018 20:57:11 Europe/Madrid] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php6gWr2g' to '/home/ubuntu/workspace/uploads/9/upload-9-2018-11-24.20:57:11' in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 70
+[25-Nov-2018 01:04:19 Europe/Madrid] PHP Warning:  chown(): Unable to find uid for ubuntu
+ in /home/ubuntu/workspace/newpost/doupload.php on line 82
+[25-Nov-2018 01:14:22 Europe/Madrid] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[25-Nov-2018 01:22:47 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:24:14 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:24:21 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:26:41 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:26:41 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 84
+[25-Nov-2018 01:27:24 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:34:31 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:35:27 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:36:46 Europe/Madrid] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/classes/izv/database/Database.php on line 73
+[25-Nov-2018 01:36:46 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:40:07 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getObservaciones() in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/doupload.php(75): izv\managedata\ManagePhoto->add(Object(izv\data\Photo))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/managedata/ManagePhoto.php on line 23
+[25-Nov-2018 01:40:39 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 78
+[25-Nov-2018 01:50:53 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 79
+[25-Nov-2018 02:20:14 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 76
+[25-Nov-2018 02:25:56 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 76
+[25-Nov-2018 15:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getFechaalta() in /home/ubuntu/workspace/admin_photos/index.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 159
+[25-Nov-2018 15:32:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getFechaalta() in /home/ubuntu/workspace/admin_photos/index.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 159
+[25-Nov-2018 15:32:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getFechaalta() in /home/ubuntu/workspace/admin_photos/index.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 159
+[25-Nov-2018 15:32:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Photo::getFechaalta() in /home/ubuntu/workspace/admin_photos/index.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 159
+[25-Nov-2018 16:33:38 Europe/Madrid] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/admin_photos/index.php on line 161
+[25-Nov-2018 16:33:38 Europe/Madrid] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/admin_photos/index.php on line 161
+[25-Nov-2018 16:41:46 Europe/Madrid] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/admin_photos/index.php on line 164
+[25-Nov-2018 16:41:46 Europe/Madrid] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/admin_photos/index.php on line 164
+[25-Nov-2018 15:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[26-Nov-2018 08:29:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[26-Nov-2018 10:06:05 UTC] PHP Fatal error:  Uncaught Error: Class 'App' not found in /home/ubuntu/workspace/admin_users/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 14
+[26-Nov-2018 11:24:33 UTC] PHP Warning:  require(./classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/user/index.php on line 5
+[26-Nov-2018 11:24:33 UTC] PHP Fatal error:  require(): Failed opening required './classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/user/index.php on line 5
+[26-Nov-2018 11:25:04 UTC] PHP Warning:  Missing argument 1 for izv\managedata\ManageUsuario::get(), called in /home/ubuntu/workspace/user/index.php on line 32 and defined in /home/ubuntu/workspace/classes/izv/managedata/ManageUsuario.php on line 56
+[26-Nov-2018 11:25:04 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/classes/izv/managedata/ManageUsuario.php on line 60
+[26-Nov-2018 11:25:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getNombre() on null in /home/ubuntu/workspace/user/index.php:103
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 103
+[26-Nov-2018 11:26:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getNombre() on null in /home/ubuntu/workspace/user/index.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 104
+[26-Nov-2018 11:33:02 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\tools\App' not found in /home/ubuntu/workspace/admin_users/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 15
+[26-Nov-2018 11:34:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/admin_users/edit.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/edit.php on line 13
+[26-Nov-2018 11:34:52 UTC] PHP Fatal error:  Uncaught Error: Class 'App' not found in /home/ubuntu/workspace/admin_users/edit.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/edit.php on line 14
+[26-Nov-2018 11:40:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/edit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/edit.php on line 16
+[26-Nov-2018 11:43:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/admin_users/doedit.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/doedit.php on line 12
+[26-Nov-2018 11:51:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/doedit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/doedit.php on line 15
+[27-Nov-2018 11:09:57 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php/sessions) failed: Permission denied (13) in /home/ubuntu/workspace/classes/izv/tools/Session.php on line 15
+[27-Nov-2018 12:14:06 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 76
+[27-Nov-2018 11:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[27-Nov-2018 11:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/dodelete.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/dodelete.php on line 18
+[27-Nov-2018 11:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[27-Nov-2018 12:16:13 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 76
+[27-Nov-2018 11:25:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[29-Nov-2018 07:43:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/dodelete.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/dodelete.php on line 18
+[29-Nov-2018 07:43:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[29-Nov-2018 07:43:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[29-Nov-2018 08:01:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[29-Nov-2018 08:02:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[29-Nov-2018 08:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[29-Nov-2018 08:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[29-Nov-2018 08:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[29-Nov-2018 08:03:38 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/user/index.php on line 35
+[29-Nov-2018 08:03:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/user/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 35
+[29-Nov-2018 08:07:09 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/user/index.php on line 35
+[29-Nov-2018 08:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/user/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 35
+[29-Nov-2018 08:10:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[29-Nov-2018 08:13:28 UTC] PHP Notice:  Undefined variable: resultadoParcial in /home/ubuntu/workspace/admin_users/dodelete.php on line 61
+[29-Nov-2018 08:14:39 UTC] PHP Notice:  Undefined variable: resultadoParcial in /home/ubuntu/workspace/admin_users/dodelete.php on line 61
+[29-Nov-2018 08:16:21 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\tools\Session' not found in /home/ubuntu/workspace/admin_photos/dodelete.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/dodelete.php on line 11
+[29-Nov-2018 08:23:12 UTC] PHP Notice:  Undefined variable: resultadoParcial in /home/ubuntu/workspace/admin_users/dodelete.php on line 61
+[29-Nov-2018 08:24:10 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\tools\Session' not found in /home/ubuntu/workspace/admin_photos/dodelete.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/dodelete.php on line 11
+[29-Nov-2018 08:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/edit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/edit.php on line 16
+[29-Nov-2018 08:44:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/doedit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/doedit.php on line 15
+[30-Nov-2018 15:42:50 UTC] PHP Notice:  Undefined variable: resultadoParcial in /home/ubuntu/workspace/admin_users/dodelete.php on line 61
+[30-Nov-2018 15:46:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/ubuntu/workspace/admin_users/dodelete.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/dodelete.php on line 41
+[30-Nov-2018 15:49:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/ubuntu/workspace/admin_users/dodelete.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/dodelete.php on line 42
+[01-Dec-2018 00:38:07 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/user/index.php on line 35
+[01-Dec-2018 00:38:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/user/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 12:42:59 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 12:42:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/user/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 13:39:57 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 13:39:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/user/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 16:46:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Reader' not found in /home/ubuntu/workspace/editpost/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/editpost/index.php on line 23
+[02-Dec-2018 16:49:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Reader' not found in /home/ubuntu/workspace/editpost/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/editpost/index.php on line 23
+[02-Dec-2018 16:55:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home/ubuntu/workspace/editpost/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/editpost/index.php on line 31
+[02-Dec-2018 16:55:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/editpost/index.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/editpost/index.php on line 89
+[02-Dec-2018 16:58:21 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 16:58:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/user/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 16:58:29 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 16:58:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLogin() on null in /home/ubuntu/workspace/user/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 35
+[02-Dec-2018 17:07:26 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/user/index.php on line 60
+[02-Dec-2018 17:07:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/user/index.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 60
+[02-Dec-2018 17:08:56 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/user/doinsert.php on line 32
+[02-Dec-2018 17:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Permissions' not found in /home/ubuntu/workspace/user/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 26
+[02-Dec-2018 19:25:59 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:29:00 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:30:43 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:35:16 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:37:33 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:38:23 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 18:44:08 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 107
+[02-Dec-2018 19:44:39 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:46:47 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:46:47 Europe/Madrid] PHP Notice:  Undefined variable: mime in /home/ubuntu/workspace/newpost/doupload.php on line 93
+[02-Dec-2018 19:47:59 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:47:59 Europe/Madrid] PHP Warning:  unlink(/home/ubuntu/workspace/uploads/9/): Is a directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 91
+[02-Dec-2018 19:48:34 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:48:34 Europe/Madrid] PHP Notice:  Undefined variable: mime in /home/ubuntu/workspace/newpost/doupload.php on line 93
+[02-Dec-2018 19:55:14 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:04:43 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 196
+[02-Dec-2018 19:05:05 UTC] PHP Parse error:  syntax error, unexpected 'Array' (T_ARRAY) in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 196
+[02-Dec-2018 20:05:23 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:05:23 Europe/Madrid] PHP Warning:  unlink(/home/ubuntu/workspace/uploads/9/): Is a directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 91
+[02-Dec-2018 20:05:47 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:05:47 Europe/Madrid] PHP Warning:  unlink(/home/ubuntu/workspace/uploads/9/): Is a directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 91
+[02-Dec-2018 20:07:06 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:07:06 Europe/Madrid] PHP Warning:  unlink(/home/ubuntu/workspace/uploads/9/): Is a directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 91
+[02-Dec-2018 20:08:48 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:12:08 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:14:30 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:14:59 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:16:05 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:16:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/newpost/doupload.php on line 81
+[02-Dec-2018 20:17:15 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:17:48 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 19:19:44 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 205
+[02-Dec-2018 20:20:19 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:49:41 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:49:41 Europe/Madrid] PHP Notice:  Undefined variable: type in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 208
+[02-Dec-2018 20:49:41 Europe/Madrid] PHP Notice:  Undefined variable: type in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 208
+[02-Dec-2018 20:49:41 Europe/Madrid] PHP Notice:  Undefined variable: type in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 208
+[02-Dec-2018 20:49:41 Europe/Madrid] PHP Notice:  Undefined variable: type in /home/ubuntu/workspace/classes/izv/tools/Upload.php on line 208
+[02-Dec-2018 20:49:41 Europe/Madrid] PHP Notice:  Undefined variable: res in /home/ubuntu/workspace/newpost/doupload.php on line 96
+[02-Dec-2018 20:50:21 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:50:21 Europe/Madrid] PHP Notice:  Undefined variable: res in /home/ubuntu/workspace/newpost/doupload.php on line 96
+[02-Dec-2018 20:52:10 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:52:10 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 96
+[02-Dec-2018 20:53:11 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 20:53:11 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 96
+[02-Dec-2018 20:54:52 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[02-Dec-2018 22:19:04 UTC] PHP Notice:  Undefined variable: session in /home/ubuntu/workspace/newpost/index.php on line 11
+[02-Dec-2018 22:19:04 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to izv\tools\Permissions::loggedIn() must be an instance of izv\tools\Session, null given, called in /home/ubuntu/workspace/newpost/index.php on line 11 and defined in /home/ubuntu/workspace/classes/izv/tools/Permissions.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/index.php(11): izv\tools\Permissions::loggedIn(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/tools/Permissions.php on line 13
+[03-Dec-2018 01:05:09 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\tools\Session' not found in /home/ubuntu/workspace/admin_photos/dodelete.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/dodelete.php on line 11
+[03-Dec-2018 01:06:10 UTC] PHP Warning:  unlink(../uploads/1): No such file or directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 91
+[03-Dec-2018 01:06:10 UTC] PHP Warning:  unlink(../uploads/2): No such file or directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 91
+[03-Dec-2018 01:14:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[03-Dec-2018 16:00:50 UTC] PHP Notice:  Undefined variable: session in /home/ubuntu/workspace/newpost/index.php on line 11
+[03-Dec-2018 16:00:50 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to izv\tools\Permissions::loggedIn() must be an instance of izv\tools\Session, null given, called in /home/ubuntu/workspace/newpost/index.php on line 11 and defined in /home/ubuntu/workspace/classes/izv/tools/Permissions.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/index.php(11): izv\tools\Permissions::loggedIn(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/tools/Permissions.php on line 13
+[03-Dec-2018 16:02:52 UTC] PHP Notice:  Undefined variable: session in /home/ubuntu/workspace/newpost/index.php on line 12
+[03-Dec-2018 16:02:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to izv\tools\Permissions::loggedIn() must be an instance of izv\tools\Session, null given, called in /home/ubuntu/workspace/newpost/index.php on line 12 and defined in /home/ubuntu/workspace/classes/izv/tools/Permissions.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/newpost/index.php(12): izv\tools\Permissions::loggedIn(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/izv/tools/Permissions.php on line 13
+[03-Dec-2018 16:05:35 UTC] PHP Warning:  unlink(../uploads/3): No such file or directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 114
+[03-Dec-2018 17:07:31 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[03-Dec-2018 17:07:36 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[03-Dec-2018 16:08:07 UTC] PHP Warning:  unlink(../uploads/5): No such file or directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 114
+[03-Dec-2018 16:08:09 UTC] PHP Warning:  unlink(../uploads/4): No such file or directory in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 114
+[03-Dec-2018 17:34:45 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[03-Dec-2018 16:35:42 UTC] PHP Notice:  Undefined variable: dir in /home/ubuntu/workspace/classes/izv/tools/Util.php on line 97
+[03-Dec-2018 18:15:41 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:15:41 UTC] PHP Notice:  Undefined variable: pageuser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:15:41 UTC] PHP Notice:  Undefined variable: isset in /home/ubuntu/workspace/user/index.php on line 175
+[03-Dec-2018 18:15:41 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/ubuntu/workspace/user/index.php:175
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 175
+[03-Dec-2018 18:16:19 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:16:19 UTC] PHP Notice:  Undefined variable: pageuser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:18:00 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:18:00 UTC] PHP Notice:  Undefined variable: pageuser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:18:00 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/user/index.php on line 67
+[03-Dec-2018 18:18:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/user/index.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 67
+[03-Dec-2018 18:18:09 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:18:09 UTC] PHP Notice:  Undefined variable: pageuser in /home/ubuntu/workspace/user/index.php on line 63
+[03-Dec-2018 18:20:28 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/user/index.php on line 65
+[03-Dec-2018 18:20:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/user/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 65
+[03-Dec-2018 18:25:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/user/index.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 65
+[03-Dec-2018 18:29:02 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 75
+[03-Dec-2018 18:29:02 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 76
+[04-Dec-2018 02:05:45 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 77
+[04-Dec-2018 01:18:22 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 77
+[04-Dec-2018 01:18:22 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 77
+[04-Dec-2018 01:18:22 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: The "/home/ubuntu/workspace/user/templates" directory does not exist ("/home/ubuntu/workspace/user/templates"). in /home/ubuntu/workspace/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/ubuntu/wo...', '__main__')
+#1 /home/ubuntu/workspace/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/ubuntu/workspace/user/index.php(85): Twig_Loader_Filesystem->__construct('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[04-Dec-2018 01:18:49 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 77
+[04-Dec-2018 01:18:49 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 77
+[04-Dec-2018 01:18:49 UTC] PHP Notice:  Undefined variable: useradmin in /home/ubuntu/workspace/user/index.php on line 90
+[04-Dec-2018 01:19:12 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 77
+[04-Dec-2018 01:19:12 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 77
+[04-Dec-2018 01:19:12 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 90
+[04-Dec-2018 01:21:14 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 80
+[04-Dec-2018 01:21:49 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 80
+[04-Dec-2018 01:23:02 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 81
+[04-Dec-2018 01:23:03 UTC] PHP Notice:  Undefined variable: curruser in /home/ubuntu/workspace/user/index.php on line 81
+[04-Dec-2018 07:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[04-Dec-2018 07:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_photos/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_photos/index.php on line 17
+[04-Dec-2018 15:38:15 UTC] PHP Warning:  require(./classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/user/register.php on line 4
+[04-Dec-2018 15:38:15 UTC] PHP Fatal error:  require(): Failed opening required './classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/user/register.php on line 4
+[04-Dec-2018 16:03:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[05-Dec-2018 13:14:00 UTC] PHP Notice:  Undefined variable: photo in /home/ubuntu/workspace/editpost/index.php on line 36
+[05-Dec-2018 13:14:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUserId() on null in /home/ubuntu/workspace/editpost/index.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/editpost/index.php on line 36
+[05-Dec-2018 13:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdministrador() on null in /home/ubuntu/workspace/admin_users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/index.php on line 16
+[05-Dec-2018 16:34:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/ubuntu/workspace/user/index.php:88
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/user/index.php on line 88
+[05-Dec-2018 16:37:05 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[05-Dec-2018 16:38:10 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[05-Dec-2018 19:06:06 UTC] PHP Fatal error:  Uncaught Error: Class 'App' not found in /home/ubuntu/workspace/admin_users/insert.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/insert.php on line 5
+[05-Dec-2018 19:07:42 UTC] PHP Fatal error:  Uncaught Error: Class 'App' not found in /home/ubuntu/workspace/admin_users/insert.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/insert.php on line 5
+[05-Dec-2018 19:07:46 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\tools\App' not found in /home/ubuntu/workspace/admin_users/insert.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/admin_users/insert.php on line 6
+[05-Dec-2018 19:16:49 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[05-Dec-2018 19:17:22 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[05-Dec-2018 19:18:01 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[05-Dec-2018 19:18:11 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[05-Dec-2018 20:18:54 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[05-Dec-2018 20:18:54 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 102
+[05-Dec-2018 20:18:54 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 107
+[05-Dec-2018 19:34:56 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/admin_users/index.php on line 91
+[05-Dec-2018 19:35:25 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/admin_users/index.php on line 91
+[05-Dec-2018 19:35:35 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/admin_users/index.php on line 92
+[05-Dec-2018 19:37:21 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/admin_users/index.php on line 92
+[05-Dec-2018 19:37:33 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/admin_users/index.php on line 92
+[05-Dec-2018 20:44:17 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[05-Dec-2018 19:50:20 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[05-Dec-2018 20:50:51 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[05-Dec-2018 20:52:42 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[11-Dec-2018 09:34:39 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[11-Dec-2018 08:34:44 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[12-Dec-2018 11:40:57 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[12-Dec-2018 12:41:03 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 102
+[12-Dec-2018 12:41:03 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 107
+[12-Dec-2018 12:41:46 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 12:41:46 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 102
+[12-Dec-2018 12:41:46 Europe/Madrid] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/newpost/doupload.php on line 107
+[12-Dec-2018 12:43:07 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 12:47:47 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 12:09:12 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[12-Dec-2018 12:19:59 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[12-Dec-2018 14:10:50 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 14:13:13 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 14:13:16 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 14:13:47 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 14:15:12 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 14:16:17 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83
+[12-Dec-2018 13:16:47 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[12-Dec-2018 13:16:48 UTC] PHP Notice:  Undefined variable: isadmin in /home/ubuntu/workspace/user/index.php on line 113
+[12-Dec-2018 14:18:07 Europe/Madrid] PHP Warning:  mkdir(): File exists in /home/ubuntu/workspace/newpost/doupload.php on line 83

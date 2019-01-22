@@ -1,0 +1,52 @@
+{% extends '_base.html' %}
+{% block page %}
+        <main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    <h4 class="display-4">Edición de usuario</h4>
+                </div>
+            </div>
+            <div class="container">
+                <form action="user/doedit" method="post">
+                    <div class="form-group">
+                            <input type="hidden" class="form-control" id="id" name="id" value="{{ useraccount.id }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="nombre">Nombre del usuario</label>
+                            <input required type="text" class="form-control" id="nombre" name="nombre" placeholder="Introduce el nombre del usuario" value="{{ useraccount.nombre }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico (login)</label>
+                            <input required type="email" class="form-control" id="correo" name="correo" placeholder="Introduce el correo del usuario" value="{{ useraccount.correo }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="alias">Alias</label>
+                            <input type="text" class="form-control" id="alias" name="alias" placeholder="Introduce el alias del usuario" value="{{ useraccount.alias }}">
+                        </div>
+                    <hr>
+                    <div class="form-group">
+                        <label for="clave">Clave anterior</label>
+                        <input type="password" class="form-control" id="claveAnterior" name="claveAnterior" placeholder="Introduce la clave anterior del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="clave">Clave</label>
+                        <input type="password" class="form-control" id="clave" name="clave" placeholder="Introduce la clave nueva del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="clave2">Repite clave</label>
+                        <input type="password" class="form-control" id="clave2" name="clave2" placeholder="Repite la clave nueva del usuario">
+                    </div>
+                    <div class="form-group">
+                            <label for="clave">Usuario activo (desactivará tu cuenta):</label>
+                            <input type="checkbox" class="form-control" id="activo" name="activo" {{ useraccount.activo }}>
+                        </div>
+                        <div class="form-group"> Admin check to add.
+                            <input type="hidden" class="form-control" id="administrador" name="administrador" value="{{ useraccount.administrador }}">
+                        </div>
+                        <input type="hidden" id="fechaalta" name="fechaalta" value="{{ useraccount.fechaalta }}">
+                        
+                        <button type="submit" class="btn btn-primary">Editar</button>
+                </form>
+            </div>
+        </main>
+{% endblock %}

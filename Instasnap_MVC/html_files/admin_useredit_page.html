@@ -1,0 +1,56 @@
+{% extends '_base.html' %}
+{% block page %}
+        <main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    <h4 class="display-4">Usuarios</h4>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <form action="admin/userpanel_doedit" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" id="id" name="id" value="{{ theuser.id }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="nombre">Nombre del usuario</label>
+                            <input required type="text" class="form-control" id="nombre" name="nombre" placeholder="Introduce el nombre del usuario" value="{{ theuser.nombre }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico (login)</label>
+                            <input required type="email" class="form-control" id="correo" name="correo" placeholder="Introduce el correo del usuario" value="{{ theuser.correo }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="alias">Alias</label>
+                            <input type="text" class="form-control" id="alias" name="alias" placeholder="Introduce el alias del usuario" value="{{ theuser.alias }}">
+                        </div>
+                    <hr>
+                    <div class="form-group">
+                        <label for="clave">Clave anterior</label>
+                        <input type="password" class="form-control" id="claveAnterior" name="claveAnterior" placeholder="Introduce la clave anterior del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="clave">Clave</label>
+                        <input type="password" class="form-control" id="clave" name="clave" placeholder="Introduce la clave nueva del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="clave2">Repite clave</label>
+                        <input type="password" class="form-control" id="clave2" name="clave2" placeholder="Repite la clave nueva del usuario">
+                    </div>
+                    <div class="form-group">
+                            <label for="clave">Usuario activo:</label>
+                            <input type="checkbox" class="form-control" id="activo" name="activo" {{ theuser.activo }}>
+                        </div>
+                        <div class="form-group">
+                            <label for="clave">Usuario administrador:</label>
+                            <input type="checkbox" class="form-control" id="administrador" name="administrador" {{ theuser.administrador }}>
+                        </div>
+                        <input type="hidden" id="fechaalta" name="fechaalta" value="{{ theuser.fechaalta }}">
+                        
+                        <button type="submit" class="btn btn-primary">Editar</button>
+                    </form>
+                </div>
+                <hr>
+            </div>
+        </main>
+{% endblock %}

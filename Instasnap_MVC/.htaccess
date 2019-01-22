@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^$ root.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ root.php?parametros=$1 [QSA]

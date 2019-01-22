@@ -1,0 +1,42 @@
+{% extends '_base.html' %}
+{% block page %}
+<main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    <h4 class="display-4">New post</h4>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <form action="post/doupload" method="post" enctype="multipart/form-data">
+                        
+                        <!--ID is autoassigned -->
+                        <!--userid later -->
+                        <!--ofn and sfn assigned later -->
+                        <input type="file" id="uploadedphoto" name="uploadedphoto"/>
+                        <div class="form-group">
+                            <label for="nombre">Description</label>
+                            <input required type="text" class="form-control" id="description" name="description" placeholder="Describe la foto">
+                        </div>
+                        
+                        <!--mime is assigned later -->
+                        
+                        <div class="form-group">
+                            <label for="visible">Visible on dashboard</label>
+                            <input type="checkbox" name="visible" id="visible" checked value="1">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="pinned">Pin to top</label>
+                            <input type="checkbox" name="pinned" id="pinned" value="1">
+                        </div>
+                        
+                        <!--uploadtime is autoassigned -->
+
+                        <button type="submit" class="btn btn-primary">Alta</button>
+                    </form>
+                </div>
+                <hr>
+            </div>
+        </main>
+{% endblock %}

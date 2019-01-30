@@ -1,0 +1,115 @@
+{% extends '_base.html' %}
+{% block page %}
+<main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    <h4 class="display-4">Photos</h4>
+                </div>
+            </div>
+            <div class="container">
+                <div class='row mi-margen-inferior'>
+                    <form action="admin/photopanel" method="get" enctype="multipart/form-data" id="elForm">
+                        <div class='col-md-4 col-md-offset-3' >
+                            <input type="text" name="filtro" class="form-control" id="filtro" placeholder="Filtrar" value="{{filtro}}" />
+                            <input type="hidden" name="orden" id="orden" value="{{orden}}" />
+                        </div>
+                        <div class='col-md-2'>
+                            <input type="submit" class="btn btn-success" value="Ok">
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <h3>List of Photos</h3>
+                </div>
+                <table class="table table-striped table-hover" id="tablaProducto">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" id="checkAll" /></th>
+                            <th>Id</th>
+                            <th>User ID</th>
+                            <th>Original File</th>
+                            <th>FS File</th>
+                            <th>Description</th>
+                            <th>Mime Type</th>
+                            <th>Visible</th>
+                            <th>Pinned</th>
+                            <th>Upl Time</th>
+                            <th>Delete</th>
+                            <th>Edit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for photo in arrphotos %}
+                                <tr >
+                                    <td><input type="checkbox" name="ids[]"  value="{{ photo.id }}" form="fBorrar" /></td>
+                                    <td>{{ photo.id }}</td>
+                                    <td>
+                                        <a href="user?uid={{ photo.userid }}" >{{ photo.userid }}</a>
+                                    </td>
+                                    <td>{{ photo.or_filename }}</td>
+                                    <td>{{ photo.sto_filename }}</td>
+                                    <td>{{ photo.description }}</td>
+                                    <td>{{ photo.mime_type }}</td>
+                                    
+                                    {% if photo.visible == 1 %}
+                                        <td><input type="checkbox" readonly disabled checked="checked" /></td>
+                                    {% elseif photo.visible == 0 %}
+                                        <td><input type="checkbox" readonly disabled/></td>
+                                    {% else %}
+                                        <td></td>
+                                    {% endif %}
+                                    
+                                    {% if photo.pinned == 1 %}
+                                        <td><input type="checkbox" readonly disabled checked="checked" /></td>
+                                    {% elseif photo.pinned == 0 %}
+                                        <td><input type="checkbox" readonly disabled/></td>
+                                    {% else %}
+                                        <td></td>
+                                    {% endif %}
+                                    
+                                    <td>{{ photo.uploadtime }}</td>
+                                    <td><a href="admin/photopanel_dodelete?id={{ photo.id }}" class = "borrar">Borrar</a></td>
+                                    <td><a href="post/edit?pid={{ photo.id }}">Editar</a></td>
+                                </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <div class="row">
+                    <input class="btn btn-danger" type="submit" value="borrar" form="fBorrar"/>
+                    &nbsp;
+                    <!--<input class="btn btn-danger" type="button" value="borrar" data-toggle="modal" data-target="#confirm" />-->
+                    &nbsp;
+                    <!--<a href="insert.php" class="btn btn-success">Add pic (deprecated)</a>-->
+                    <a href="post/new" class="btn btn-success">Add pic</a>
+                </div>
+                <form action="admin/photopanel_dodelete" method="post" name="fBorrar" id="fBorrar"></form>
+                <form action="post/edit" method="post" name="fEditar" id="fEditar">
+                    <input type="hidden" name="id" id="id" value="" />
+                </form>
+                <hr>
+            </div>
+            <div class="container">
+                <div class='row'>
+                    <div class='col-md-3'>
+                        <a href="admin/photopanel?pagina={{paginas.primero}}&orden={{orden}}" class="btn contact-submit" role="button">Primero</a>
+                    </div>
+                    <div class='col-md-3'>
+                        <a href="admin/photopanel?pagina={{paginas.anterior}}&orden={{orden}}" class="btn contact-submit" role="button">Anterior</a>
+                    </div>
+                    <div class='col-md-3'>
+                        <a href="admin/photopanel?pagina={{paginas.siguiente}}&orden={{orden}}" class="btn contact-submit" role="button">Siguiente</a>
+                    </div>
+                    <div class='col-md-3'>
+                        <a href="admin/photopanel?pagina={{paginas.ultimo}}&orden={{orden}}" class="btn contact-submit" role="button">Último</a>
+                    </div>
+                </div>
+                <div class='row mi-margen-inferior'>
+                    {% for pagina in rango %}
+                        <div class='col-md-1'>
+                            <a href="admin/photopanel?pagina={{pagina}}&orden={{orden}}" class="btn contact-submit" role="button">{{pagina}}</a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </main>
+{% endblock %}

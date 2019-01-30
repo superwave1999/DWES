@@ -1,0 +1,33 @@
+
+
+TESTS:
+/ OK
+/login OK
+/register OK
+
+/admin OK
+/admin/userpanel OK
+/admin/userpanel_add OK
+/admin/userpanel_dodelete OK
+/admin/userpanel_doadd OK
+/admin/userpanel_edit OK
+/admin/userpanel_doedit OK
+
+/admin/photopanel OK
+/admin/photopanel_dodelete OK
+
+/post/new OK
+/post/doupload OK
+/post/edit OK
+/post/doedit OK
+
+/user OK
+/user/edit OK
+/user/doedit OK
+/user/doactivate OK
+
+Penetration tests OK
+
+
+
+TODO: Pagination.

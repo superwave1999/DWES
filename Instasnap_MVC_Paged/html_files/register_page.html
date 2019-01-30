@@ -1,0 +1,33 @@
+{% extends '_base.html' %}
+{% block page %}
+            <div class="jumbotron">
+                <div class="container">
+                    <h4 class="display-4">Registro de usuario</h4>
+                </div>
+            </div>
+            <div class="container">
+                <form action="register/doregister" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre del usuario</label>
+                        <input required type="text" class="form-control" id="nombre" name="nombre" placeholder="Introduce el nombre del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input required type="email" class="form-control" id="correo" name="correo" placeholder="Introduce el correo del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="alias">Alias</label>
+                        <input type="text" class="form-control" id="alias" name="alias" placeholder="Introduce el alias del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="clave">Clave</label>
+                        <input required type="password" class="form-control" id="clave" name="clave" placeholder="Introduce la clave del usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="clave2">Repite clave</label>
+                        <input required type="password" class="form-control" id="clave2" name="clave2" placeholder="Repite la clave del usuario">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Alta</button>
+                </form>
+            </div>
+{% endblock %}

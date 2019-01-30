@@ -1,0 +1,26 @@
+{% extends '_base.html' %}
+{% block page %}
+    <div class="jumbotron text-center">
+      <h2>Welcome back!</h2>
+                            
+                            {% for key,photo in arrphotos %}
+                                
+                                {% if photo.mime_type == "video/mp4" %}
+                                    <video width="680" height="480" controls>
+                                      <source src='./uploads/{{ photo.userid }}/{{ photo.sto_filename }}' type="video/mp4">
+                                      Your browser doesnt support embedded videos.
+                                    </video> <br>
+                                {% else %}
+                                    <img src='./uploads/{{ photo.userid }}/{{ photo.sto_filename }}' width="680"/><br>
+                                {% endif %}
+
+                                <h4>{{ photo.description }}</h4><br>
+                                <a href="./user?uid={{ photo.userid }}">{{ photo.userid }}</a><br>
+                                <p>{{ photo.or_filename }}</p><br>
+
+                                {% if (currentuserid == photo.userid or isadmin == true) %}
+                                  <a href="post/edit?pid={{ photo.id }}" class="btn btn-success">Edit</a><br>
+                                {% endif %}
+                            {% endfor %}
+    </div>
+{% endblock %}

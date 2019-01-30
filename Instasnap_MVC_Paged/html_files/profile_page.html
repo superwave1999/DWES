@@ -1,0 +1,46 @@
+{% extends '_base.html' %}
+{% block page %}
+    <div class="jumbotron text-center">
+        
+        <div class="row">
+            <div class="col-md-4">
+                <h2>
+                    {{ useraccount.nombre }}
+                </h2>
+                <p>
+                    Also known as {{ useraccount.alias }}
+                </p>
+                <p>
+                    Mail: {{ useraccount.correo }}
+                </p>
+                <p>
+                    Member since: {{ useraccount.fechaalta }}
+                </p>
+                
+                {% if enablebutton==true %}
+                   <a href="user/edit?uid={{ useraccount.id }}" class="btn btn-info">Edit profile</a>
+                 {% endif %}
+            </div>
+            
+            <div class="col-md-8">
+                {% for photo in userphotos %}
+                  {% if photo.mime_type == "video/mp4" %}
+                                    <video width="320" height="240" controls>
+                                      <source src='uploads/{{photo.userid}}/{{photo.sto_filename}}' type="video/mp4">
+                                      Your browser doesnt support embedded videos.
+                                    </video> 
+                    {% else %}
+
+                                    <img src='uploads/{{photo.userid}}/{{photo.sto_filename}}' />
+                    {% endif %}
+                                    
+
+                                <p>{{photo.description}}</p>
+                                
+                                <p>{{photo.or_filename}}</p>
+                                
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

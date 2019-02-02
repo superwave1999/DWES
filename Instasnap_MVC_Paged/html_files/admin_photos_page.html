@@ -7,15 +7,12 @@
                 </div>
             </div>
             <div class="container">
-                <div class='row mi-margen-inferior'>
-                    <form action="admin/photopanel" method="get" enctype="multipart/form-data" id="elForm">
-                        <div class='col-md-4 col-md-offset-3' >
-                            <input type="text" name="filtro" class="form-control" id="filtro" placeholder="Filtrar" value="{{filtro}}" />
+                <div class='row'>
+                    <form class="col-md-12" action="admin/userpanel" method="get" enctype="multipart/form-data" id="elForm">
+                            <input type="text" name="filtro" class="form-control col-md-6" id="filtro" placeholder="Filtrar" value="{{filtro}}" />
                             <input type="hidden" name="orden" id="orden" value="{{orden}}" />
-                        </div>
-                        <div class='col-md-2'>
-                            <input type="submit" class="btn btn-success" value="Ok">
-                        </div>
+                            <input type="submit" class="btn btn-success col-md-2" value="Ok">
+
                     </form>
                 </div>
                 <div class="row">

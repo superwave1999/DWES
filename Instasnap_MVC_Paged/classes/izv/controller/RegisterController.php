@@ -16,20 +16,6 @@ class RegisterController extends UserController {
         //...
     }
     
-    /*
-    function defaultAction() {
-        if($this->getSession()->isLogged()) {
-            $this->getModel()->set('twigFile', 'dashboard_page.html');
-            $this->getModel()->set('user', $this->getSession()->getLogin()->getCorreo());
-            if($this->isAdministrator()) {
-                $this->getModel()->set('administrador', true);
-            }
-        } else {
-            //5º producir resultado
-            $this->getModel()->set('twigFile', 'login_page.html');
-        }
-    }*/
-    
     function defaultAction() {
         if($this->getSession()->isLogged()) {
             header('Location: ' . App::BASE );
@@ -47,66 +33,7 @@ class RegisterController extends UserController {
     4º usar el modelo
     5º producir resultado (para la vista)
     */
-    
 
-    //Login / Logout
-    /*
-    function dologin() {
-        //1º control de sesión
-        if($this->getSession()->isLogged()) {
-            //5º producir resultado -> redirección
-            header('Location: ' . App::BASE . 'index?op=login&r=session');
-            exit();
-        }
-
-        //2º lectura de datos
-        $usuario = Reader::readObject('izv\data\Usuario');
-        
-        //4º usar el modelo
-        $r = $this->getModel()->login($usuario);
-
-        if($r !== false) {
-            $this->getSession()->login($r);
-            $r = 1;
-        } else {
-            $r = 0;
-        }
-        
-        //5º producir resultado -> redirección
-        header('Location: ' . App::BASE . 'index?op=login&r=' . $r);
-        exit();
-    }
-
-    function dologout() {
-        $this->getSession()->logout();
-        header('Location: ' . App::BASE);
-        exit();
-    }
-    
-    
-    /*
-    function login() {
-        //1º control de sesión, si está logueado no se muestra el login
-        if(!$this->getSession()->isLogged()) {
-            //2º lectura de datos    -> no hay
-            //3º validación de datos -> no hay
-            //4º usar el modelo    -> no hace falta
-            //5º producir resultado
-            $this->getModel()->set('twigFile', '_login.html');
-        }
-    }*/
-    
-    
-    
-    //Register
-    /*
-    function register() {
-        //1º control de sesión, si está logueado no se muestra el registro
-        if(!$this->getSession()->isLogged()) {
-            //5º producir resultado
-            $this->getModel()->set('twigFile', '_register.html');
-        }
-    }*/
     
     function doregister() {
         //1º control de sesión

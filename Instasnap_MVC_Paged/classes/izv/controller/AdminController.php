@@ -14,7 +14,9 @@ class AdminController extends Controller {
 
     function __construct(Model $model) {
         parent::__construct($model);
-        //...
+        $this->getModel()->set('lista', Navlinks::getLinksRoot());
+        $this->getModel()->set('listaadm', Navlinks::getAdminLinksRoot());
+        $this->getModel()->set('home', Navlinks::getTitleRoot());
     }
 
     function defaultAction() {
@@ -54,9 +56,9 @@ class AdminController extends Controller {
             //$allUsers = $this->getModel()->getAllOrOne();
 
             //Navbar
-                $this->getModel()->set('lista', Navlinks::getLinksRoot());
-                $this->getModel()->set('listaadm', Navlinks::getAdminLinksRoot());
-                $this->getModel()->set('home', Navlinks::getTitleRoot());
+                ///$this->getModel()->set('lista', Navlinks::getLinksRoot());
+                //$this->getModel()->set('listaadm', Navlinks::getAdminLinksRoot());
+                //$this->getModel()->set('home', Navlinks::getTitleRoot());
             
             
             //Check if user can edit the post
@@ -266,9 +268,9 @@ class AdminController extends Controller {
             
 
             //Navbar
-                $this->getModel()->set('lista', Navlinks::getLinksRoot());
-                $this->getModel()->set('listaadm', Navlinks::getAdminLinksRoot());
-                $this->getModel()->set('home', Navlinks::getTitleRoot());
+                //$this->getModel()->set('lista', Navlinks::getLinksRoot());
+                //$this->getModel()->set('listaadm', Navlinks::getAdminLinksRoot());
+                //$this->getModel()->set('home', Navlinks::getTitleRoot());
             
             
             //Check if user can edit the post

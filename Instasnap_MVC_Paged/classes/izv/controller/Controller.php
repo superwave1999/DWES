@@ -25,7 +25,6 @@ class Controller {
         $this->model = $model;
         $this->sesion = new Session(App::SESSION_NAME);
         $this->getModel()->set('urlbase', App::BASE);
-        $this->carrito = new Carrito();
     }
     
     function getModel() {
@@ -35,11 +34,6 @@ class Controller {
     function getSession() {
         return $this->sesion;
     }
-    
-    function getCarrito() {
-        return $this->carrito;
-    }
-    
 
     /* acciones */
     
@@ -47,6 +41,55 @@ class Controller {
         return $this->getSession()->isLogged() && $this->getSession()->isAdmin();
     }
     
+    
+    //Filter helper
+    
+    function go($base_redirect = null) {
+        $path = array();
+        //if (isset($_SERVER['REQUEST_URI'])) {
+            $request_path = explode('?', $_SERVER['REQUEST_URI']);
+            $vars = explode('&', $request_path[1]);
+            
+            $redirect = $this->accionPorDefecto;
+            foreach ($vars as $var) {
+                $t = explode('=', $var);
+                if (isset($t[1]) && !$t[1] == '') {
+                    $path[$t[0]] = $t[1];
+                }
+            }
+            if($base_redirect == null) {
+                if (!isset($path['redirect'])) {
+                header('Location: ' . App::BASE . $this->accionPorDefecto);
+                exit();
+                }
+                $redirect = $path['redirect'];
+                unset($path['redirect']);
+            } else {
+                $redirect = $base_redirect;
+            }
+            //??????
+            $redirect = $path['redirect'];
+            unset($path['redirect']);
+            $s = '';
+            if (count($path) >= 1) {
+                $s = '?';
+                $i = 0;
+                foreach($path as $key=> $value){   
+                    if($i < (count($path)-1)) {
+                        $s .= $key . '=' . $path[$key] . '&';
+                    } else {
+                        $s .= $key . '=' . $value;
+                    }
+                    $i++;
+                }
+            }
+            
+        //}
+        //echo App::BASE . $this->accionPorDefecto . $s;
+        //exit;
+        header('Location: ' . App::BASE . $redirect . $s);
+        exit();
+    }
     
 
 }
